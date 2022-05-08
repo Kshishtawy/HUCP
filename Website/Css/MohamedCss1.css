@@ -5,15 +5,6 @@ body{
     justify-content: center;
 }
 
-@font-face {
-    src: url(../media/font/adventpro-light.ttf);
-    font-family: advent;
- }
- @font-face {
-    src: url(../media/font/FjallaOne-Regular.ttf);
-    font-family: FjallaOne;
- }
-
 
 *{
     margin: 0;
@@ -204,7 +195,7 @@ button:hover{
     left:51%;
     position: absolute;
     color: rgba(0, 0, 0, 0);
-    font-family:FjallaOne;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 50px;
     }
 
@@ -227,7 +218,7 @@ button:hover{
 
 
 .head{
-    font-family:fjallaOne;
+    font-family: 'Fjalla One', sans-serif;
     font-size:50px;
     color: rgb(152, 150, 215);
     padding: 15px 0px 5px 3px;
@@ -244,7 +235,7 @@ button:hover{
     0% {
         margin-left:3px;
         font-size:50px;
-        font-family:FjallaOne;
+        font-family: 'Fjalla One', sans-serif;
     color: rgba(140, 171, 210, 0.796);
     }
    
@@ -275,7 +266,7 @@ button:hover{
 
 .intro_para{
     color: #7f98a5;
-    font-family:advent;
+    font-family: 'Advent Pro', sans-serif;
     text-align:center;
     size:100%;
     font-size:26px;
@@ -332,14 +323,14 @@ button:hover{
     margin: 10px;
     color: #7f98a5;
     font-size:45px;
-    font-family:FjallaOne;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 
 .w_c2{
     color:#6a8696;
     font-size:40px;
-    font-family:advent;
+    font-family: 'Advent Pro', sans-serif;
     margin:10px;
     display:flex;
 
@@ -389,7 +380,7 @@ button:hover{
 
 .cb_text1{
   color: #6a8696;
-  font-family:advent;
+  font-family: 'Advent Pro', sans-serif;
   font-size:35px;
   margin:50px;
 }
@@ -401,7 +392,7 @@ button:hover{
 
 .cb_text2{
     color: #6a8696;
-    font-family:advent;
+    font-family: 'Advent Pro', sans-serif;
     font-size:25px;
     margin:40px;
     margin-top:90px;
@@ -442,13 +433,13 @@ button:hover{
     color:#607b8a;
     margin:50px;
     font-size:30px;
-    font-family:FjallaOne;
+    font-family: 'Fjalla One', sans-serif;
     
 }
 
 .al_text2{
     color:#607b8ac5;
-    font-family:advent;
+    font-family: 'Advent Pro', sans-serif;
     font-size:30px;
     margin:40px;
 }
@@ -456,7 +447,7 @@ button:hover{
 
 .lv_text{
     color: #607b8a;
-   font-family:  advent;
+    font-family: 'Advent Pro', sans-serif;
    font-size:25px;
    text-align-last: center;
    margin:20px;
@@ -494,7 +485,7 @@ button:hover{
     color:#628395;
     font-size:43px;
     font-weight: 120;
-    font-family:FjallaOne;
+    font-family: 'Fjalla One', sans-serif;
     margin:100px;
     text-align:start;
     position:absolute;
@@ -512,7 +503,7 @@ button:hover{
 .at_text{
     color:#628395;
     margin:30px;
-    font-family:advent;
+    font-family: 'Advent Pro', sans-serif;
     font-size:30px;
 }
 .vid{
