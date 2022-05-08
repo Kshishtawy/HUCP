@@ -173,12 +173,15 @@ button:hover{
 }
     .left-photos{
         position: relative;
-        display: inline-block;
         width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
         height: auto;
         margin: 0 1% 0 1%;
     }
     .middle-article {
+        text-align: justify;
         letter-spacing: 2px;
         margin: 0 1% 0 1%;
         display: inline-block;
@@ -190,11 +193,13 @@ button:hover{
         color:yellow;
     }
     .right-photos{
-        margin: 0 1% 0 1%;
         position: relative;
-        display: inline-block;
         width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
         height: auto;
+        margin: 0 1% 0 1%;
     }
     .container{
         display: flex;
@@ -276,6 +281,7 @@ body{
     color: orange;
     font-size: 55px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 hr {
     border-color: #fbff00;
