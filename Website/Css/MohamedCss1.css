@@ -6,11 +6,11 @@ body{
 }
 
 @font-face {
-    src: url(font/adventpro-light.ttf);
+    src: url(../media/font/adventpro-light.ttf);
     font-family: advent;
  }
  @font-face {
-    src: url(font/FjallaOne-Regular.ttf);
+    src: url(../media/font/FjallaOne-Regular.ttf);
     font-family: FjallaOne;
  }
 
