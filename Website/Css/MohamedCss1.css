@@ -5,15 +5,6 @@ body{
     justify-content: center;
 }
 
-@font-face {
-    src: url(../media/font/adventpro-light.ttf);
-    font-family: advent;
- }
- @font-face {
-    src: url(../media/font/FjallaOne-Regular.ttf);
-    font-family: FjallaOne;
- }
-
 
 *{
     margin: 0;
@@ -204,7 +195,7 @@ button:hover{
     left:51%;
     position: absolute;
     color: rgba(0, 0, 0, 0);
-    font-family:FjallaOne;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 50px;
     }
 
@@ -227,7 +218,7 @@ button:hover{
 
 
 .head{
-    font-family:fjallaOne;
+    font-family: 'Fjalla One', sans-serif;
     font-size:50px;
     color: rgb(152, 150, 215);
     padding: 15px 0px 5px 3px;
@@ -244,7 +235,7 @@ button:hover{
     0% {
         margin-left:3px;
         font-size:50px;
-        font-family:FjallaOne;
+        font-family: 'Fjalla One', sans-serif;
     color: rgba(140, 171, 210, 0.796);
     }
    
@@ -332,7 +323,7 @@ button:hover{
     margin: 10px;
     color: #7f98a5;
     font-size:45px;
-    font-family:FjallaOne;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 
@@ -442,7 +433,7 @@ button:hover{
     color:#607b8a;
     margin:50px;
     font-size:30px;
-    font-family:FjallaOne;
+    font-family: 'Fjalla One', sans-serif;
     
 }
 
@@ -494,7 +485,7 @@ button:hover{
     color:#628395;
     font-size:43px;
     font-weight: 120;
-    font-family:FjallaOne;
+    font-family: 'Fjalla One', sans-serif;
     margin:100px;
     text-align:start;
     position:absolute;

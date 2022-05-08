@@ -277,22 +277,22 @@ animation-timing-function:linear;
 animation-delay:2s;}
 @keyframes shadow{
 0%{
-content:url(eloon.jpg);
+content:url(../media/eloon.jpg);
 height: 400 px;
 width:400 px;
 }
 25%{
-content:url(pay.jpg );
+content:url(../media/pay.jpg );
 height: 400px;
 width: 400px;
 }
 50%{
-content:url(elooon.jpg );
+content:url(../media/elooon.jpg );
 height: 400 px;
 width: 400px;
 }
 75%{
-content:url(twitter.jpg );
+content:url(../media/twitter.jpg );
 height: 400px;
 width: 400px;
 }
