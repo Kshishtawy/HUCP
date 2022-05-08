@@ -1,10 +1,4 @@
-@font-face {
-    src: url(fonts/Gawaa-Regular.ttf);
-    font-family: gawaa;}
- @font-face {
-    src: url(fonts/margheritavariablegx.ttf);
-    font-family: margher;
- }
+
  body{
      background-color: black;
  }
@@ -188,7 +182,7 @@ button:hover{
 
 .intro_text{
     color:rgb(92, 92, 92);
-    font-family:margher;
+    font-family: 'Josefin Sans', sans-serif;
     font-size:80px;
     margin:30px;
     
@@ -205,7 +199,7 @@ button:hover{
 
 .intro_text1{
     padding:100px;
-    font-family:gawaa;
+    font-family: 'Oswald', sans-serif;
     font-size:50px;
     color:rgb(118, 118, 118);
     background-image: linear-gradient(to bottom,rgba(82, 82, 82, 0.5), rgba(0, 0, 0, 0.5));
@@ -223,7 +217,7 @@ button:hover{
 }
 .musa_text,.bool_text{
     margin:10px;
-    font-family:gawaa;
+    font-family: 'Oswald', sans-serif;
     font-size:38px;
     color:rgb(155, 155, 155);
 }
@@ -255,7 +249,7 @@ button:hover{
 
 .ada_text{
     margin:30px 10px 10px 10px;
-    font-family:gawaa;
+    font-family: 'Oswald', sans-serif;
     font-size:30px;
     color:rgb(155, 155, 155);
 
@@ -272,7 +266,7 @@ button:hover{
 .ala
 {
     margin:50px;
-    font-family:gawaa;
+    font-family: 'Oswald', sans-serif;
     color:rgb(124, 124, 124);
     font-size:50px;
 }
