@@ -1,0 +1,802 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --skew: 0deg;
+    --left: 48%;
+    --s4Expand: 20vw;
+    --hidez: 5;
+}
+
+html{
+    scroll-snap-type:Y proximity;
+    overflow-y: scroll;
+}
+
+/* the nav part */
+.navbar{
+    width:100%;
+    height:75px;
+    margin:auto;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width:200px;
+    float:left;
+    height:70px;
+}
+.logo{
+    color: #fbff00;
+    font-size:35px;
+    font-family:Arial;
+    padding-left:20px;
+    float:left;
+    padding-top:10px;
+}
+.menu{
+width: 400px;
+float:left;
+height:70px;
+}
+ul{
+    float:left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+ul li{
+    list-style:none;
+    margin-left:62px;
+    margin-top:27px;
+    font-size: 14px;
+z-index: 1;
+}
+ ul li a{
+    text-decoration:none;
+    color:#fff ;
+    font-family:Arial;
+    font-weight:bold;
+    transition:0.4s ease-in-out;
+z-index: 1;
+}
+ul li::after{
+content: '';
+width:0%;
+height:2px;
+background: #fbff00;
+display:block;
+margin: auto;
+transition: 0.5s;
+}
+ul li:hover::after{
+width:100%;
+}
+ul li a:hover{
+    color: #fbff00;
+}
+.pages
+{
+    display:none;
+}
+ul li:hover .pages
+{
+display:block;
+position: absolute;
+margin-top:-10px;
+margin-left:-60px;
+}
+ul li:hover .pages ul
+{
+    display:block;
+    margin:5px;
+}
+ul li:hover .pages ul li
+{
+width:50px;
+padding:0px;
+border-bottom:1px dotted #fff;
+background:transparent;
+border-radius:0;
+text-align:left;
+}
+ul li:hover .pages ul li:last-child
+{
+border-bottom:none;
+}
+ul li:hover .pages ul li a:hover
+{
+color:#fbff00;
+}
+
+.search{
+    width:330px;
+    float:left;
+    margin-left:270px;
+z-index: 1;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border:1px solid #fbff00;
+    margin-top:13px;
+    color: rgb(255, 255, 255);
+    border-right:none;
+    font-size:20px;
+    float:left;
+    padding:10px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius:15px;
+z-index: 1;
+}
+.btn{
+    width:100px;
+    height: 40px;
+    background: #fbff00;
+    border:2px solid #fbff00;
+    margin-top:13px;
+    color : rgb(0, 0, 0);
+    font-size:15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.btn:focus{
+    outline:none;
+}
+.srch:focus{
+    outline: none;
+}
+.btn{
+    color:#ffffff;
+    font-size:medium;
+    padding: 10px 25px;
+    background: transparent;
+    background-color: #000000;
+    border: 1px solid #fbfcfd;
+    border-radius: 20px;
+    outline: none;
+    cursor:pointer;
+    transition: 0.4s ease;
+}
+.btn:hover{
+background-color: #fbff00;
+color: #000000;
+transform: scale(1.1);
+}
+
+/* end of nav */
+
+.floatIconsCont{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    left: 0%;
+    height: 100%;
+    width: auto;
+    z-index: 10;
+}
+
+.spacexIco{
+    width: 8vw;
+    height: auto;
+    transition: 1s;
+}
+
+.introIco{
+    width: 8vw;
+    height: auto;
+    transition: 1s;
+}
+
+.spacexIco:hover{
+    width: 9vw;
+}
+
+.introIco:hover{
+    width: 9vw;
+}
+
+.introAnim{
+    background-color: rgb(250, 250, 250);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 11;
+}
+
+.introLogo{
+    width: 20vw;
+    height: auto;
+}
+
+.slider{
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 11;
+    transform: translateY(-100%);
+}
+
+.s1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url(../media/shishtawy/teslaS1.jpg);
+    box-shadow: 
+    inset 1px 0 5px  rgb(255, 41, 41),  
+    inset -1px 0 5px  rgb(255, 39, 39);
+    background-position: 50% 50%;
+    background-size: cover; 
+    overflow: hidden;
+    
+}
+
+.scrollDown{
+    position: absolute;
+    width: 1vw;
+    height: auto;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -95%);
+}
+
+/* .teslaLogoCont{  css of logo
+    position: absolute;
+    align-items: center;
+    top: 8%;
+    right: 5%;
+    transform: translate(-5%, -5%);
+}
+
+.teslaLogo{
+    width: 12vw;
+    height: auto;
+}
+*/
+
+.elonCont{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.elonPic{
+    width: 45vw;
+    height: auto;
+    margin: auto;
+    padding-top: 10vh;
+}
+
+.textCont{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+    justify-content: center;
+    
+}
+
+.s1Text{
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4vw;
+    border-radius: 10px;
+    border-color: aliceblue;
+    text-shadow: 2px 2px 10px black;
+    width: 100%;
+    text-align: left;
+}
+
+.s1TextAns{
+    color: rgb(221, 43, 43);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4vw;
+    border-color: aliceblue;
+    text-shadow: 2px 2px 10px black;
+    text-align: right;
+    padding-right: 6vw;
+}
+
+.s2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: url(../media/shishtawy/gas-station.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.s2Textbg{
+    width: 100vw;
+    height: 100%;
+    background-color: red;
+    transform: skew(var(--skew));
+    position: absolute;
+    left: var(--left);
+    
+}
+
+.s2TextCont{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-right: 2vw;
+    margin-top: 20vw;
+
+}
+
+.s2TextCont h2{
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8vw;
+    border-radius: 10px;
+    border-color: aliceblue;
+    text-shadow: 2px 2px 10px black;
+    width: 100%;
+    text-align: center;
+    transform: skew(2deg);
+}
+
+.s2TextCont p{
+    padding-top: 5vh;
+    padding-left: 10vh;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vw;
+    border-radius: 10px;
+    border-color: aliceblue;
+    text-shadow: 2px 2px 10px black;
+    width: 100%;
+    text-align: center;
+    transform: skew(2deg);
+    
+}
+
+.s3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    scroll-snap-align: start;
+}
+
+.s3hide{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: var(--hidez);
+}
+
+.coolBtnText{
+    margin-bottom: 10vh;
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw;
+    border-radius: 10px;
+    border-color: aliceblue;
+    text-shadow: 2px 2px 10px black;
+    width: 80%;
+    text-align: center;
+}
+
+.coolBtnText strong{
+    color: #FF013C;
+}
+
+/* the copied cool button starts here */
+
+#coolBtn, #coolBtn::after {
+  width: 20vw;
+  height: 10vh;
+  font-size: 36px;
+  font-family: 'Bebas Neue', cursive;
+  background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  line-height: 88px;
+  box-shadow: 6px 0px 0px #00E6F6;
+  outline: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+#coolBtn::after {
+  --slice-0: inset(50% 50% 50% 50%);
+  --slice-1: inset(80% -6px 0 0);
+  --slice-2: inset(50% -6px 30% 0);
+  --slice-3: inset(10% -6px 85% 0);
+  --slice-4: inset(40% -6px 43% 0);
+  --slice-5: inset(80% -6px 5% 0);
+  
+  content: 'AVAILABLE NOW';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+  clip-path: var(--slice-0);
+}
+
+#coolBtn:hover::after {
+  animation: 1s glitch;
+  animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+  0% {
+    clip-path: var(--slice-1);
+    transform: translate(-20px, -10px);
+  }
+  10% {
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px);
+  }
+  20% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 10px);
+  }
+  30% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
+  }
+  40% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+  }
+  50% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
+  }
+  60% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
+  }
+  70% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
+  }
+  80% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
+  }
+  90% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
+  }
+}
+
+/* the copied cool button ends here */
+
+.s3Shade{
+    opacity: 0;
+    filter: brightness(50%);
+}
+
+.model3{
+    height: 25vh;
+    width: 100%;
+    background: url(../media/shishtawy/cars/model\ 3.jpg);
+    background-position: 0% 63%;
+    background-size: cover;
+    transition: 1s;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.model3 p{
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8vw;
+    border-radius: 10px;
+    border-color: aliceblue;
+    text-shadow: 2px 2px 10px black;
+    margin: auto;
+    transition: 1s;
+}
+
+.model3 strong{
+    border-color: aliceblue;
+    transition: 1s;
+}
+
+.model3:hover{
+    height: 50vh;
+    filter: brightness(100%);
+}
+
+.model3:hover p{
+    padding-left: 70%;
+}
+
+.model3:hover strong{
+    color: rgb(43, 43, 43);
+}
+
+
+.modelS{
+    height: 25vh;
+    width: 100%;
+    background: url(../media/shishtawy/cars/Model\ S.jpg);
+    background-position: 50% 63%;
+    object-fit: cover;
+    background-size: cover;
+    transition: 1s;
+    display: flex;
+    justify-content: flex-end;
+}
+.modelS p{
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8vw;
+    border-radius: 10px;
+    border-color: aliceblue;
+    text-shadow: 2px 2px 10px black;
+    margin: auto;
+    transition: 1s;
+}
+
+.modelS strong{
+    color: aliceblue;
+    transition: 1s;
+}
+
+.modelS:hover{
+    height: 60vh;
+    background-position: 50% 75%;
+    filter: brightness(100%);
+}
+
+.modelS:hover p{
+    padding-right: 70%;
+}
+
+.modelS:hover strong{
+    color: rgb(221, 43, 43);
+}
+
+.modelX{
+    height: 25vh;
+    width: 100%;
+    background: url(../media/shishtawy/cars/model\ X.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: 1s;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modelX p{
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8vw;
+    border-radius: 10px;
+    border-color: aliceblue;
+    text-shadow: 2px 2px 10px black;
+    margin: auto;
+    transition: 1s;
+}
+
+.modelX strong{
+    color: aliceblue;
+    transition: 1s;
+}
+.modelX:hover{
+    height: 50vh;
+    background-position: 50% 55%;
+    filter: brightness(100%);
+}
+
+.modelX:hover p{
+    padding-right: 70%;
+}
+
+.modelX:hover strong{
+    color: rgb(127, 199, 189);
+}
+
+
+.modelY{
+    height: 25vh;
+    width: 100%;
+    background: url(../media/shishtawy/cars/model\ Y.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: 1s;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modelY p{
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8vw;
+    border-radius: 10px;
+    border-color: aliceblue;
+    text-shadow: 2px 2px 10px black;
+    margin: auto;
+    transition: 1s;
+}
+
+.modelY strong{
+    border-color: aliceblue;
+    transition: 1s;
+}
+
+.modelY:hover{
+    height: 50vh;
+    filter: brightness(100%);
+}
+
+.modelY:hover p{
+    padding-left: 70%;
+}
+
+.modelY:hover strong{
+    color: rgb(44, 81, 248);
+}
+
+.s4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.leftimg{
+    width: 100%;
+    height: 100%;
+    background: url(../media/shishtawy/solar-roof.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.s4TextCont{
+    width: var(--s4Expand);
+    height: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.s4TextCont h2{
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7vw;
+    border-color: aliceblue;
+    text-shadow: 2px 2px 10px black;
+    width: 100%;
+    text-align: center;
+}
+
+.s4TextCont p{
+    padding-top: 5vh;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vw;
+    border-radius: 10px;
+    border-color: aliceblue;
+    text-shadow: 2px 2px 10px black;
+    width: 100%;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 5vh;
+}
+
+.s4TextCont strong{
+    
+    color: rgb(39, 200, 206);
+}
+
+.rightimg{
+    width: 100%;
+    height: 100%;
+    background: url(../media/shishtawy/solar-panels.jpg);
+    background-position: 70% 50%;
+    background-size: cover;
+}
+
+.s5{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../media/shishtawy/s5.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.s5border{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    background-color: rgba(170, 49, 49, 0.2);
+    padding: 5vw;
+    border-radius: 2vw;
+}
+
+.s5 h2{
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8vw;
+    border-radius: 10px;
+    border-color: aliceblue;
+    text-shadow: 2px 2px 10px black;
+    width: 100%;
+    text-align: center;
+}
+
+.s5 p{
+    padding-top: 5vh;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vw;
+    border-color: aliceblue;
+    text-shadow: 2px 2px 10px black;
+    width: 100%;
+    text-align: center;
+}
+
+.quote{
+    font-family: 'Roboto', sans-serif !important;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.right{
+    padding-top: 0vh !important;
+    text-align: right !important;
+}
