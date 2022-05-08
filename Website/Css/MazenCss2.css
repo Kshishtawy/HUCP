@@ -311,8 +311,8 @@ button:hover{
 .text 
 {
     position:absolute;
-    top:50%;
-    left:50%;
+    top:15%;
+    left:52%;
     font-size:50px;
     padding: 0;
 }
@@ -354,6 +354,14 @@ button:hover{
 .mane img
 {
     width:100%
+}
+.text2
+{
+    position:absolute;
+    top:5%;
+    left:52%;
+    font-size:50px;
+    padding: 0;
 }
 .sec4
 { 
@@ -404,17 +412,17 @@ button:hover{
 }
 .content {
     color: #ffffff; 
-    font-size: 55px;
+    font-size: 50px;
     font-family: 'Comfortaa', cursive;
     text-shadow: -.030em .030em rgb(255, 255, 255),   -.08em .08em black; 
-    margin: -210px 0px 30px 0px;
+    margin: -160px 0px 30px 0px;
     margin-left: -1200px;
     width: 900px;
     text-align: center;
   }
   .content1 {
     color: #ffffff; 
-    font-size: 65px;
+    font-size: 55px;
     font-family: 'Comfortaa', cursive;
     text-shadow: -.030em .030em rgb(255, 255, 255),   -.08em .08em black; 
     margin: 60px 0px 0px 0px;
@@ -424,12 +432,12 @@ button:hover{
   }
   .content2 {
     color: #ffffff; 
-    font-size: 65px;
+    font-size: 60px;
     font-family: 'Comfortaa', cursive;
     text-shadow: -.030em .030em rgb(255, 255, 255),   -.08em .08em black; 
-    margin: 80px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
     margin-left: 40px;
-    width: 900px;
+    width: 910px;
     text-align: center;
   }
   .videos
