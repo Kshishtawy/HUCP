@@ -275,7 +275,7 @@ button:hover{
 
 .intro_para{
     color: #7f98a5;
-    font-family:advent;
+    font-family: 'Advent Pro', sans-serif;
     text-align:center;
     size:100%;
     font-size:26px;
@@ -339,7 +339,7 @@ button:hover{
 .w_c2{
     color:#6a8696;
     font-size:40px;
-    font-family:advent;
+    font-family: 'Advent Pro', sans-serif;
     margin:10px;
     display:flex;
 
@@ -389,7 +389,7 @@ button:hover{
 
 .cb_text1{
   color: #6a8696;
-  font-family:advent;
+  font-family: 'Advent Pro', sans-serif;
   font-size:35px;
   margin:50px;
 }
@@ -401,7 +401,7 @@ button:hover{
 
 .cb_text2{
     color: #6a8696;
-    font-family:advent;
+    font-family: 'Advent Pro', sans-serif;
     font-size:25px;
     margin:40px;
     margin-top:90px;
@@ -448,7 +448,7 @@ button:hover{
 
 .al_text2{
     color:#607b8ac5;
-    font-family:advent;
+    font-family: 'Advent Pro', sans-serif;
     font-size:30px;
     margin:40px;
 }
@@ -456,7 +456,7 @@ button:hover{
 
 .lv_text{
     color: #607b8a;
-   font-family:  advent;
+    font-family: 'Advent Pro', sans-serif;
    font-size:25px;
    text-align-last: center;
    margin:20px;
@@ -512,7 +512,7 @@ button:hover{
 .at_text{
     color:#628395;
     margin:30px;
-    font-family:advent;
+    font-family: 'Advent Pro', sans-serif;
     font-size:30px;
 }
 .vid{
