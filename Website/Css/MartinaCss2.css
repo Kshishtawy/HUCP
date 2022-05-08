@@ -154,12 +154,12 @@ button:hover{
 #img{
 width: 500px;
 height: 500px;
-margin-top: 50px;
+display: inline;
 }
 #kk{
  width: 400px;
  height: 500px;
- margin-top: 50px;
+ display: inline;
 }
 #u6{
     text-align: center;
@@ -272,4 +272,7 @@ ol {
     border-color: #fbff00;
     border-style: solid;
     background-color: bisque;
+}
+#mar{
+    margin-top: 110px;
 }
