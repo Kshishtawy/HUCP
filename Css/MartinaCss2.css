@@ -182,7 +182,7 @@ display: inline;
     margin-top: -15px;
 }
 .paragraph{
-color: pink;
+color: palevioletred;
 font-size: larger;
 font-weight: bolder;
 text-align: left;
@@ -197,7 +197,7 @@ display: block;
 .second{
     font-family:'Times New Roman', Times, serif;
     font-size:larger;
-    color: pink;
+    color: plum;
     margin-left: 40px;
     text-align:left;
     display:block;
@@ -260,7 +260,7 @@ ol {
 
 }
 #dom:hover{
-    background-color: green;
+    background-color: rgb(207, 20, 92);
     color:aquamarine;
     border: 1px solid #700;
     padding: 15px ;
