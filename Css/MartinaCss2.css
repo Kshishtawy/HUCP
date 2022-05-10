@@ -162,26 +162,32 @@ display: inline;
  display: inline;
 }
 #u6{
-    text-align: center;
+    text-align: left;
+    margin-left: -3px;
+}
+#m20{
+    margin-top: 10px;
 }
 .test{
     color: yellow;
     text-align: initial;
+    font-size: larger;
 }
 .inf{
    color: #fbff00;
-   font-size: medium;
-   font-style: italic;
+   font-size: larger;
 }
 .test2{
-    font-size: large;
+    font-size:larger;
+    margin-top: -15px;
 }
 .paragraph{
-color: rgb(225, 247, 100);
-font-variant: initial;
+color: white;
+font-size: larger;
 font-weight: bolder;
 text-align: left;
 display: block;
+
 
 }
 #ll{
@@ -190,12 +196,10 @@ display: block;
     }
 .second{
     font-family:'Times New Roman', Times, serif;
-    font-size:bold;
-    color: yellow;
-    margin: 0;
-    padding-top: 20px ;
-    padding-left: 40px;
-    text-align:right;
+    font-size:larger;
+    color: pink;
+    margin-left: 40px;
+    text-align:left;
     display:block;
     
 }
@@ -207,7 +211,7 @@ display: block;
 }
 #r5{
     width:200px;
-    height: 99px;
+    height: 97px;
     margin-top:50px;
     display: inline;
 }
@@ -219,16 +223,17 @@ display: block;
     margin-bottom: 0;
 }
 #oo{
-    align-items: left;
+    margin-top: 110px;
+    margin-left: -390px;
 }
 h3{
     text-align:center;
     font-size: 40px;
     margin-top:2px;
     border: 10px;
-    border-color: orange;
+    border-color: burlywood;
     border-style:double;
-    background-color:yellow;
+    background-color:pink;
 }
 ol h4{
     color:black;
@@ -237,20 +242,21 @@ ol h4{
 ol {
     border-width: 3%;
     border: 3px black double ;
-    background-color: yellow;
+    background-color: palevioletred;
 }
 #bb{
     background-color: black;
-    background-size: 40px;
+    
 }
 #dom{
-    background-color: orange;
+    background-color: purple;
     color:black;
     display: inline;
     border: 1px solid #700;
     padding: 15px ;
     border-radius: 5px;
     transition: all 0.5s;
+    margin-top: 20px;
 
 }
 #dom:hover{
@@ -266,13 +272,13 @@ ol {
 }
 #w3{
     text-align: center;
-    color: white;
+    color: black;
     font-size: larger;
     border: 4px;
-    border-color: #fbff00;
+    border-color: plum;
     border-style: solid;
-    background-color: bisque;
+    background-color: palevioletred;
 }
 #mar{
-    margin-top: 110px;
+   margin-top: -100px;
 }
