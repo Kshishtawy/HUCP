@@ -181,6 +181,9 @@ button:hover{
         margin: 0 1% 0 1%;
     }
     .middle-article {
+        background-color: #1a1a1a8e;
+        padding: 20px;
+        border-radius: 25px;
         text-align: justify;
         letter-spacing: 2px;
         margin: 0 1% 0 1%;
@@ -189,7 +192,6 @@ button:hover{
         height: auto;
     }
     .middle-article p {
-    
         color:yellow;
     }
     .right-photos{
@@ -267,6 +269,11 @@ body{
 .dark-mode{
     background-image: url("../media/105181499-jozefã³w-polonia-29-maggio-2017-dipinti-ad-olio-in-uno-studio-di-pittura.webp");
     background-attachment: fixed;
+   }
+   .dark_mode_button{
+       position: absolute;
+       top: 2%;
+       right: 1%;
    }
 .famous_people:hover {
     Cursor:pointer;
