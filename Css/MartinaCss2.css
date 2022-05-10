@@ -20,7 +20,7 @@
         height:70px;
     }
     .logo{
-        color: #fbff00;
+        color:pink;
         font-size:35px;
         font-family:Arial;
         padding-left:20px;
@@ -46,7 +46,7 @@
     }
     ul li a{
         text-decoration:none;
-        color: #fff;
+        color: white;
         font-family:Arial;
         font-weight:bold;
         transition:0.4s ease-in-out;
@@ -55,7 +55,7 @@
 content: '';
 width:0%;
 height:2px;
-background: #fbff00;
+background: rgb(199, 75, 143);
 display:block;
 margin: auto;
 transition: 0.5s;
@@ -64,7 +64,7 @@ transition: 0.5s;
 width:100%;
     }
     ul li a:hover{
-        color: #fbff00;
+        color: rgb(199, 75, 143);
     }
     .pages
     {
@@ -97,7 +97,7 @@ ul li:hover .pages ul li:last-child
 }
 ul li:hover .pages ul li a:hover
 {
-    color:#fbff00;
+    color:rgb(199, 75, 143);
 }
 
     .search{
@@ -110,7 +110,7 @@ ul li:hover .pages ul li a:hover
         width: 200px;
         height: 40px;
         background: transparent;
-        border:1px solid #fbff00;
+        border:1px solid rgb(199, 75, 143);
         margin-top:13px;
         color: rgb(255, 255, 255);
         border-right:none;
@@ -123,8 +123,8 @@ ul li:hover .pages ul li a:hover
     .btn{
         width:100px;
         height: 40px;
-        background: #fbff00;
-        border:2px solid #fbff00;
+        background:rgb(199, 75, 143) ;
+        border:2px solid rgb(199, 75, 143);
         margin-top:13px;
         color : rgb(0, 0, 0);
         font-size:15px;
@@ -148,7 +148,7 @@ ul li:hover .pages ul li a:hover
         transition: 0.7;
     }
 button:hover{
-    background-color: #fbff00;
+    background-color:rgb(199, 75, 143);
     transform: scale(1.1);
 }
 #img{

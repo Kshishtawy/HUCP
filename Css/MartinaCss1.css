@@ -153,6 +153,7 @@ button:hover{
 }
 #in{
     text-align: center;
+    font-size: 30px;
     border: 3px;
     border-color: black;
     border-style: solid;
@@ -171,7 +172,8 @@ background-color:black;
 }
 .js{
 color:rgb(223, 209, 19);
-font-size: large;
+font-size: x-large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .jh{
     text-align: center;
