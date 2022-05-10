@@ -186,9 +186,9 @@ button:hover{
 }
 #uu{
 margin-top: 10px;
-background-color:rgb(88, 25, 67);
+background-color:rgb(0, 0, 0);
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-color: black;
+color:blue;
 border: 10px;
 border-color: rgb(233, 35, 233);
 border-radius: 4px;
@@ -198,9 +198,9 @@ border-style:solid;
     margin-top: 10px;
     background-color:rgb(88, 25, 67);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(39, 8, 110);
+    color: black;
     border: 10px;
-    border-color: rgb(6, 59, 83);
+    border-color: black;
     border-radius: 4px;
     border-style:solid;
     }
