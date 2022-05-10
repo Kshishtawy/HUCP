@@ -244,6 +244,10 @@ ol {
     border: 3px black double ;
     background-color: palevioletred;
 }
+ol li{
+    color: white;
+    font-size: medium;
+}
 #bb{
     background-color: black;
     
