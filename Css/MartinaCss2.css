@@ -169,12 +169,12 @@ display: inline;
     margin-top: 10px;
 }
 .test{
-    color: yellow;
+    color: pink;
     text-align: initial;
     font-size: larger;
 }
 .inf{
-   color: #fbff00;
+   color: pink;
    font-size: larger;
 }
 .test2{
@@ -182,7 +182,7 @@ display: inline;
     margin-top: -15px;
 }
 .paragraph{
-color: white;
+color: pink;
 font-size: larger;
 font-weight: bolder;
 text-align: left;
@@ -268,7 +268,7 @@ ol {
     transition: all 0.5;
 }
 #mm{
-    color: #fbff00;
+    color: pink;
 }
 #w3{
     text-align: center;
