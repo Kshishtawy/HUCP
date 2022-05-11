@@ -297,7 +297,7 @@ p{
     
 
     .btnc{
-        margin-left: 50px;
-        margin-bottom: 70px;
+        float: right;
+        margin-top: 50px;
         
     }
