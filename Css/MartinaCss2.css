@@ -179,7 +179,8 @@ display: inline;
 }
 .test2{
     font-size:larger;
-    margin-top: -15px;
+    margin-top: -6px;
+    color:pink;
 }
 .paragraph{
 color: palevioletred;
