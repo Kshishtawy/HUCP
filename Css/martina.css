@@ -224,7 +224,10 @@ color: pink;
     display: block;
 }
 #n6{
-    background-color: black;
+    width: 100%;
+    height: 100%;
+    background:radial-gradient(rgb(3, 50, 68),rgb(120, 41, 184),rgb(163, 18, 18));
+    
 }
 #fo{
     color: pink;
