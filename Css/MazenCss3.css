@@ -18,11 +18,10 @@ body {
 }
 .container
 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 15px;
     margin: 0 auto;
-    width: 1500px;
 }
 .card {
   margin: 100px auto 0;
