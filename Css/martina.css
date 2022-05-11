@@ -20,7 +20,7 @@
         height:70px;
     }
     .logo{
-        color: #fbff00;
+        color: purple;
         font-size:35px;
         font-family:Arial;
         padding-left:20px;
@@ -55,7 +55,7 @@
 content: '';
 width:0%;
 height:2px;
-background: #fbff00;
+background: pink;
 display:block;
 margin: auto;
 transition: 0.5s;
@@ -64,7 +64,7 @@ transition: 0.5s;
 width:100%;
     }
     ul li a:hover{
-        color: #fbff00;
+        color: plum;
     }
     .pages
     {
@@ -97,7 +97,7 @@ ul li:hover .pages ul li:last-child
 }
 ul li:hover .pages ul li a:hover
 {
-    color:#fbff00;
+    color:purple;
 }
 
     .search{
@@ -110,7 +110,7 @@ ul li:hover .pages ul li a:hover
         width: 200px;
         height: 40px;
         background: transparent;
-        border:1px solid #fbff00;
+        border:1px solid purple;
         margin-top:13px;
         color: rgb(255, 255, 255);
         border-right:none;
@@ -123,8 +123,8 @@ ul li:hover .pages ul li a:hover
     .btn{
         width:100px;
         height: 40px;
-        background: #fbff00;
-        border:2px solid #fbff00;
+        background: palevioletred;
+        border:2px solid rgb(18, 107, 119);
         margin-top:13px;
         color : rgb(0, 0, 0);
         font-size:15px;
@@ -148,26 +148,26 @@ ul li:hover .pages ul li a:hover
         transition: 0.7;
     }
 button:hover{
-    background-color: #fbff00;
+    background-color: plum;
     transform: scale(1.1);
 }
 .bv{
-    color: yellow;
+    color: pink;
     font-size: larger;
     font-style: italic;
     border: 10px;
     border-style: ridge;
-    border-color: rgb(88, 196, 17);
+    border-color: rgb(150, 29, 110);
     margin: 10px;
     padding: 5px;
     
 }
 .rest{
-    color: yellow;
+    color: pink;
     font-weight: 100;
     font-size: 40px;
     border: 5px;
-    border-color: yellow yellowgreen;
+    border-color: pink purple;
     border-style:double;
     background-color: black;
     text-align: center;
@@ -176,24 +176,34 @@ button:hover{
 }
 .qq{
     border: 4px;
-    border-color: orange;
+    border-color: plum;
     border-style: dashed;
     background-color:black;
     outline:3px;
     outline-style: dotted;
-    outline-color: yellowgreen;
-    color: yellow;
+    outline-color: purple;
+    color: rgb(179, 22, 74);
 }
 #uu{
 margin-top: 10px;
-background-color:rgb(51, 47, 47);
+background-color:rgb(0, 0, 0);
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-color: yellow;
+color:blue;
 border: 10px;
-border-color: brown;
+border-color: rgb(233, 35, 233);
 border-radius: 4px;
 border-style:solid;
 }
+#uu :hover{
+    margin-top: 10px;
+    background-color:rgb(88, 25, 67);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    border: 10px;
+    border-color: black;
+    border-radius: 4px;
+    border-style:solid;
+    }
 .ii{
 display: inline-block;
 width: 100%;
@@ -203,7 +213,7 @@ height: 700px;
 text-align: center;
 font-size: larger;
 font-style: initial;
-color: yellow;
+color: pink;
 }
 #fn
 {
@@ -217,18 +227,17 @@ color: yellow;
     background-color: black;
 }
 #fo{
-    color: yellow;
+    color: pink;
 }
 #text{
-    color: yellow;
+    color: pink;
     font-size: 20px;
 
 }
 #ok{
     display: block;
     margin-top:5px;
-    background-color: orange;
 }
 #yes{
-    color: yellow;
+    color: purple;
 }
