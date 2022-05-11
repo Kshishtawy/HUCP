@@ -207,6 +207,7 @@ display: block;
     width: 200px;
     margin-top: 170px;
     display: inline;
+    clip-path: circle();
     
 }
 #r5{
@@ -214,6 +215,7 @@ display: block;
     height: 97px;
     margin-top:50px;
     display: inline;
+    clip-path: circle();
 }
 .vv{
     width: 200px;
@@ -221,6 +223,7 @@ display: block;
     margin-right: center;
     margin-top: 170px;
     margin-bottom: 0;
+    clip-path:circle();
 }
 #oo{
     margin-top: 110px;
