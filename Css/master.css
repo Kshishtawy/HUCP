@@ -173,6 +173,7 @@ ul li:hover .pages ul li a:hover{
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
     
+    
 }
 
 .btn:focus {
@@ -195,6 +196,7 @@ ul li:hover .pages ul li a:hover{
      outline: none;
      cursor: pointer;
      transition: 0.4s ease;
+     
  }
 
  button:hover{
@@ -293,3 +295,9 @@ p{
     
     }
     
+
+    .btnc{
+        margin-left: 50px;
+        margin-bottom: 70px;
+        
+    }
