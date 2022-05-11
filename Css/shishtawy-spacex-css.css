@@ -338,14 +338,11 @@ transform: scale(1.1);
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 6vh;
     scroll-snap-align: start;
 }
 
 .failvid{
     position: absolute;
-    left: 0;
-    top: 200vh;
     width: 100%;
     height: auto;
     z-index: -1;
