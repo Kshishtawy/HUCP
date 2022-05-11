@@ -211,7 +211,7 @@ button:hover{
     padding: 2vh;
     height: 5vh;
     color: aliceblue;
-    border-radius: 2vh;
+    border-radius: 1vh;
     background-color: rgb(85, 59, 17);
     transition: 1s;
 }
