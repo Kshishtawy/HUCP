@@ -13,4 +13,3 @@ function  myFuncation(){
     }
     document.getElementById("yes").innerHTML = txt;
 }
-  
