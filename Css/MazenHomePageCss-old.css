@@ -4,10 +4,15 @@
     }
     body
     {
-        background-color: black;
+        background-color: black;  
     }
+    .main{
+        width:100%;
+        background-position: center; 
+        background-size: cover;
+        height: 175vh;
 
-    /* nav start */
+    }
     .navbar{
         width:1200px;
         height:75px;
@@ -154,25 +159,16 @@ button:hover{
     background-color: #fbff00;
     color: #000000;
     transform: scale(1.1);
-}
-
-/* nav end */
-
-.allCont{
-    height: 100vh;
-    width: auto;
-    display: flex;
-}
-
-
-.content
+}.content
 {
     width: 100;
     position:absolute;
     top:45%;
     left:8%;
     color: #fbfcfd;
+    margin-top: -150px;
     transform: translateY(-50%);
+    margin-left: 30px;
     z-index: 2;
 }
 h1
@@ -186,8 +182,6 @@ h1
     color: #fbff00;
     font-size: 80px;
 }
-
-/*
 .form{
     width: 250px;
     height: 380px;
@@ -366,29 +360,21 @@ form button
     cursor:pointer;
     border-radius: 3px;
 }
-
-*/
-
-
 .list
 {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
+    padding-left: 70px;
+    margin-top: -1250px;
+    width: 1000px;
 }
-
-
-.catRow{
-    
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    flex-direction: row;
-
+@media(max-width:786px)
+{
+    .list
+    {
+        padding-left: 70px;
+        margin-top: -1250px;
+        width: 1000px;
+    }
 }
-
 .center
 {
     float: left;
