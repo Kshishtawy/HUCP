@@ -183,7 +183,7 @@ button:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/media/hbg2.png);
+    background-image: url(../media/hbg2.png);
     background-position: 50% 50%;
     background-size: cover;
 }
