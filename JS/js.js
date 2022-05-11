@@ -5,7 +5,7 @@ function onhover(){
 function outhover(){
     document.getElementById("exoin").style.display = "none";
     document.getElementById("img").style.display = "block";
-    document.getElementById("img").style.marginLeft="29%";
+    document.getElementById("img").style.marginLeft="30%";
 
 }
 function soundon(){
