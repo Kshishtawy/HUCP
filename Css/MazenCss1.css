@@ -236,7 +236,7 @@ h3.my-profession
   
   .content-table {
       position:absolute;
-    border-collapse: collapse;
+      border-collapse: collapse;
     margin: -2100px 300px;
     font-size: 0.9em;
     color: #ffffff;
