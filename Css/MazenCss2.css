@@ -149,7 +149,7 @@ ul li:hover .pages ul li a:hover
 .team
 {
     position:absolute;
-    width: 1300px;
+    width: 1200px;
     top:52.1%;
     left:65.5%;
     transform: translate(-50%,-50%);
@@ -307,7 +307,7 @@ span {
 .text2
 {
     position:absolute;
-    top:5%;
+    top:3%;
     left:52%;
     font-size:50px;
     padding: 0;
