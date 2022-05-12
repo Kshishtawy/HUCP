@@ -1,4 +1,6 @@
-body{background-color:  black}
+body{
+background-color:   black
+}
 
 *{
     margin: 0;
@@ -9,7 +11,7 @@ body{background-color:  black}
         background-color: black;  
         background-position: center; 
         background-size: cover;
-        height:  50px;
+        height:  70px;
     }
     .navbar{
         width:1200px;
