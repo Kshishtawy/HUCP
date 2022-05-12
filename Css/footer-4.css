@@ -74,8 +74,8 @@ a:focus {
 
 .footer .footer-social a:hover {
     color: #ffffff;
-    background: #0085ff;
-    border-color: #0085ff;
+    background: rgb(218, 184, 36);
+    border-color: rgb(218, 184, 36);
 }
 
 .footer .footer-contact p {
@@ -95,7 +95,7 @@ a:focus {
 }
 
 .footer .footer-contact a:hover i {
-    color: #0085ff;
+    color: rgb(218, 184, 36);
 }
 
 .footer .footer-links a {
@@ -110,7 +110,7 @@ a:focus {
 }
 
 .footer .footer-links a:hover {
-    color: #0085ff;
+    color: rgb(218, 184, 36);
 }
 
 .footer .footer-links a::before {
@@ -167,8 +167,8 @@ a:focus {
 }
 
 .footer .footer-newsletter .btn:hover {
-    color: #0085ff;
-    background: #ffffff;
+    color: #121518;
+    background: rgb(218, 184, 36);
 }
 
 .footer .footer-newsletter .btn:focus {
@@ -190,7 +190,7 @@ a:focus {
 }
 
 .footer .copyright .copy-text p a {
-    color: #0085ff;
+    color: rgb(218, 184, 36);
     text-decoration: none;
 }
 
@@ -214,7 +214,7 @@ a:focus {
 }
 
 .footer .copyright .copy-menu a:hover {
-    color: #0085ff;
+    color: rgb(218, 184, 36);
 }
 
 .footer .copyright .copy-menu a:last-child {

@@ -56,7 +56,6 @@ body {
 }
 
 .card__face--front {
-
   background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
   display: flex;
   align-items: center;
