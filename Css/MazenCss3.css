@@ -1,8 +1,8 @@
 :root {
-    --primary: #c00101;
-    --secondary: #2e0202;
-    --dark: #212121;
-    --light: #F3F3F3;
+  --primary: #c00101;
+  --secondary: #2e0202;
+  --dark: #212121;
+  --light: #F3F3F3;
 }
 
 * {
@@ -20,11 +20,11 @@ body {
 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-gap: 15px;
+  grid-gap: 15px;
     margin: 0 auto;
 }
 .card {
-  margin: 100px auto 0;
+  margin: 150px auto 0;
   width: 400px;
   height: 600px;
   perspective: 1000px;
@@ -51,7 +51,7 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   overflow: hidden;
-  border-radius: 16px;
+  border-radius: 30px;
   box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
 }
 

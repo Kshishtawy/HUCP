@@ -109,7 +109,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction:column;
 }
 
 .catCard:hover{
@@ -122,7 +122,7 @@
     height: auto;
 }
 
-#catKpopText{
+#catKpopText{   
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 3vw;
     opacity: 0;
@@ -230,4 +230,3 @@
     opacity: 1;
 }
 
-  
