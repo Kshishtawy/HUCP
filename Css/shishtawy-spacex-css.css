@@ -10,6 +10,11 @@ body{
 }
 
 /* the nav part */
+
+.main{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(41,41,41,1) 27%, rgb(44, 44, 44) 50%, rgb(53, 53, 53) 69%, rgb(41, 41, 41) 97%);
+}
 .navbar{
     width:1200px;
     height:75px;
@@ -339,13 +344,14 @@ transform: scale(1.1);
     align-items: center;
     justify-content: center;
     scroll-snap-align: start;
+    z-index: 1;
 }
 
 .failvid{
     position: absolute;
     width: 100%;
     height: auto;
-    z-index: -1;
+    z-index: 0;
 }
 
 .falconCont{
@@ -438,7 +444,7 @@ transform: scale(1.1);
     width: auto;
     height: 50vh;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     margin-left: auto;
     margin-right: 5vw;
     padding-top: 10vh;
@@ -476,8 +482,10 @@ transform: scale(1.1);
 }
 
 .sucVid{
-    width: 45vw;
+    width: 40vw;
     height: auto;
+    margin-top: 5vh;
+    margin-right: 3vw;
     border-radius: 10px;
     object-fit: cover;
     object-position: 0% 50%;

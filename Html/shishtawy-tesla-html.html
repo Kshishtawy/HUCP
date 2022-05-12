@@ -9,6 +9,10 @@
     <link rel="icon" href="../media/shishtawy/Tesla-Logo-without.png" type="image/icon png">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="../Css/footer-4.css" rel="stylesheet">
+    <link href="../Css/feedback.css" rel="stylesheet">
 </head>
 
 
@@ -25,6 +29,7 @@
     </div>
 
     <!-- nav starts here -->
+    <div class="navbg"></div>
     <div class="main">
         <div class="navbar">
          <div class="icon">
@@ -53,10 +58,7 @@
                     <li><a href="#">CONTACT</a></li>
                 </ul>
              </div>
-             <div class="search">
-                 <input class="srch" type="search" name="" placeholder="Type To text">
-                 <a href="#"><button class="btn">Search</button></a>
-        </div>
+            
     </div>  
     <!-- nav ends here -->
 
@@ -161,6 +163,139 @@
 
     </div>
     </section>
+
+    <!-- Footer starts here -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="footer-about">
+                    <h3>About Us</h3>
+                    <p>
+                        A team of 9 members talking about the celebrities of the world
+                    </p>
+                    <div class="footer-social">
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="col-md-6 col-lg-3">
+                <div class="footer-links">
+                    <h3>Celebrities</h3>
+                    <a href="../Html/shishtawy-intro-html.html">Entrepreneurship</a>
+                    <a href="../Html/MazenHtml3.html">Football</a>
+                    <a href="../Html/kpop.html">Kpop</a>
+                    <a href="../Html/kerols.html">Painting</a>
+                    <a href="../Html/shishtawy-tesla-html.html">Technology</a>
+                    <a href="../Html/index.html">Cooking</a>
+                    <a href="../Html/MartinaHtml2.html">Medicine</a>
+                    <a href="../Html/MohamedMath.html">Math</a>
+                    <a href="../Html/mohamedScience.html">Computer Science</a>
+
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-3">
+                <div class="footer-project">
+                    <h3>Latest Pages</h3>
+                    <a href="../Html/MazenPage1.html"><img src="../media/abou.jpg" alt="abotrika"></a>
+                    <a href="../Html/shishtawy-intro-html.html"><img src="../media/shishtawy/elon.png" alt="elon"></a>
+                    <a href="../Html/MazenPage2.html"><img src="../media/DR6fjAcX0AEqt3D.png" alt="liverpool"></a>
+                </div>
+            </div>
+            <div class="con">
+            <div class="containerr">
+                <div class="post">
+                  <div class="text">Thanks for rating us!</div>
+                  <div class="edit">EDIT</div>
+                </div>
+                <div class="star-widget">
+                  <input type="radio" name="rate" id="rate-5">
+                  <label for="rate-5" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-4">
+                  <label for="rate-4" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-3">
+                  <label for="rate-3" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-2">
+                  <label for="rate-2" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-1">
+                  <label for="rate-1" class="fas fa-star"></label>
+                  <form action="#">
+                    <header></header>
+                    <div class="textarea">
+                      <textarea cols="30" placeholder="Describe your experience.."></textarea>
+                    </div>
+                    <div class="btn">
+                        <button type="submit">Post</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <script>
+                const btn = document.querySelector(".btn");
+                const post = document.querySelector(".post");
+                const widget = document.querySelector(".star-widget");
+                const editBtn = document.querySelector(".edit");
+                btn.onclick = ()=>{
+                  widget.style.display = "none";
+                  post.style.display = "block";
+                  editBtn.onclick = ()=>{
+                    widget.style.display = "block";
+                    post.style.display = "none";
+                  }
+                  return false;
+                }
+              </script>
+        </div>
+    </div>
+    
+    <div class="container footer-newsletter">
+        <p>
+            
+        </p>
+        <div class="row form">
+            <div class="col-sm-4">
+                <input class="form-control" placeholder="Your Name">
+            </div>
+            <div class="col-sm-4">
+                <input class="form-control" placeholder="Your Email">
+            </div>
+            <div class="col-sm-4">
+                <button class="btn">Subscribe</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <div class="copyright">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="copy-text">
+                        <p>&copy; <a href="../index.html">World's Celebrities Site</a>. All Rights Reserved</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="copy-menu">
+                        <a href="">About</a>
+                        <a href="">Terms</a>
+                        <a href="">Privacy</a>
+                        <a href="">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer ends here -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
