@@ -1,24 +1,10 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
     background:  black;
-=======
-    background: #ffffff;
-
->>>>>>> 5adac77b67fdac210237efdb3002f141acbc662d
 }
 
-a {
-    transition: .3s;
-}
 
-a:hover,
-a:active,
-a:focus {
-    outline: none;
-    text-decoration: none;
-}
 
 .footer {
     position: relative;
