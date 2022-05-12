@@ -16,18 +16,19 @@
 
     }
     .navbar{
-        width:1200px;
+        width:1500px;
         height:75px;
         margin:auto;
         position: fixed;
         transform: translateX(-50%);
-        left:50%;
+        left: 10%;
     }
     .icon{
         width:200px;
         float:left;
         height:70px;
         z-index: 1;
+        margin-left: 30%;
 
     }
     .logo{
@@ -38,7 +39,9 @@
         float:left;
         padding-top:10px;
         z-index: 1;
-        
+        margin-left: 30%;
+
+    
     }
     .menu{
     width: 400px;
@@ -115,61 +118,6 @@ ul li:hover .pages ul li a:hover
 {
     color:red;
 }
-
-    .search{
-        width:330px;
-        float:left;
-        margin-left:270px;
-    }
-    .srch{
-        font-family: 'Times New Roman';
-        width: 200px;
-        height: 40px;
-        background: transparent;
-        border:1px solid #ffffff;
-        margin-top:13px;
-        color: rgb(255, 255, 255);
-        border-right:none;
-        font-size:20px;
-        float:left;
-        padding:10px;
-        border-bottom-left-radius: 15px;
-        border-top-left-radius:15px;
-    }
-    .btn{
-        width:100px;
-        height: 40px;
-        background: #ffffff;
-        border:2px solid #000000;
-        margin-top:13px;
-        color : rgb(0, 0, 0);
-        font-size:15px;
-        border-bottom-right-radius: 15px;
-        border-bottom-left-radius: 15px;
-    }
-    .btn:focus{
-        outline:none;
-    }
-    .srch:focus{
-        outline: none;
-    }
-    button{
-        color:#ffffff;
-        font-size:medium;
-        padding: 10px 25px;
-        background: transparent;
-        background-color: #000000;
-        border: 1px solid #fbfcfd;
-        border-radius: 20px;
-        outline: none;
-        cursor:pointer;
-        transition: 0.4s ease;
-    }
-button:hover{
-    background-color: red;
-    color: #000000;
-    transform: scale(1.1);
-}
 .banner
 {
     display: flex;
@@ -201,7 +149,7 @@ button:hover{
 .team
 {
     position:absolute;
-    width: 1300px;
+    width: 1200px;
     top:52.1%;
     left:65.5%;
     transform: translate(-50%,-50%);
@@ -359,7 +307,7 @@ span {
 .text2
 {
     position:absolute;
-    top:5%;
+    top:3%;
     left:52%;
     font-size:50px;
     padding: 0;
